@@ -19,6 +19,6 @@ class Solution {
             prev = head;
             head = nextnode;
         }
-        return newlist;
+        return prev;
     }
 }
