@@ -1,2 +1,3 @@
-# leetcode
-leetcode solutions in JAVA
+# Competitive programming
+Solutions for leetcode and GFG in java
+
