@@ -10,3 +10,21 @@ class Solution {
     return false;
   }
 }
+
+
+=================================================================================
+
+class Solution {
+    public boolean containsDuplicate(int[] nums) {
+        boolean result = false;
+        Set<Integer> set = new HashSet<>();
+
+        for(int num : nums){
+            set.add(num);
+        }
+
+        result = nums.length == set.size() ? false : true;
+
+        return result;
+    }
+}
